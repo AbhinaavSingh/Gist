@@ -1,0 +1,1326 @@
+WEBVTT
+
+1
+00:00:05.400 --> 00:00:11.160
+Abhinaav Singh: Okay, all right so bad, I do understand that.
+
+2
+00:00:12.420 --> 00:00:18.810
+Abhinaav Singh: You will not be the direct consumer of the product that we are building, but we did want to.
+
+3
+00:00:19.620 --> 00:00:26.550
+Abhinaav Singh: quickly explain what we're doing here our solution to us so that we could get input from your side from two.
+
+4
+00:00:27.300 --> 00:00:43.650
+Abhinaav Singh: aspects, one is as a program administrator the other as a product manager you've been in the back in the past, so we thought we could get your help and try to hone our product, a little more and trying to make it more appropriate for the target customers as well.
+
+5
+00:00:45.480 --> 00:00:46.080
+Abhinaav Singh: So.
+
+6
+00:00:46.500 --> 00:00:53.430
+Abhinaav Singh: yeah, I will start by giving you a brief background again very quickly about the problem you're trying to solve, so that you have context.
+
+7
+00:00:54.540 --> 00:01:03.690
+Abhinaav Singh: In about a minute or so so so again the customers now for our particular solution, our academy degree program administrators.
+
+8
+00:01:04.110 --> 00:01:08.700
+Abhinaav Singh: And problem category that we're trying to solve is collaboration during curriculum planning.
+
+9
+00:01:09.540 --> 00:01:18.990
+Abhinaav Singh: Now the problem essentially is during collaboration by performing two important tasks in curriculum planning one is scheduling of courses every semester.
+
+10
+00:01:19.650 --> 00:01:26.850
+Abhinaav Singh: And the other one is collaborating with instructors to provide resources and share information throughout the Semester every semester.
+
+11
+00:01:27.540 --> 00:01:37.650
+Abhinaav Singh: Now, this is a pressing problem alive, because it generally takes about four to eight weeks for program administrators to schedule their semester.
+
+12
+00:01:38.520 --> 00:01:49.020
+Abhinaav Singh: which essentially is a lot of time it takes about four to eight weeks of daily half an hour long activity for them to be able to schedule, all of the courses within the Semester.
+
+13
+00:01:50.100 --> 00:01:54.210
+Abhinaav Singh: The second problem is again, it leads to a lot of productivity loss because.
+
+14
+00:01:55.170 --> 00:02:05.160
+Abhinaav Singh: This is time they could end up spending on some of the more important tasks like a vision for the next semester for the program itself admissions and making sure the graduates.
+
+15
+00:02:05.880 --> 00:02:14.610
+Abhinaav Singh: There is enough partnership with different schools and industry as well, the third one, is it hard, it also hurts other planning, for example, students.
+
+16
+00:02:15.120 --> 00:02:25.440
+Abhinaav Singh: could have so this information is related to all of the other stakeholders, the plant curriculum for the Semester, a little late because of the time that it takes one of the.
+
+17
+00:02:26.340 --> 00:02:38.550
+Abhinaav Singh: Some of the stakeholders of this is students now for for that program and again we're given this information will earlier, they would have more information as to the courses, they want to take that semester.
+
+18
+00:02:39.090 --> 00:02:53.340
+Abhinaav Singh: So we have again a month three out of the four people we interviewed interviewed seem to have this problem in some way or the other, and seem to be facing this four to six four to eight week long time period that it took them.
+
+19
+00:02:54.690 --> 00:03:02.250
+Abhinaav Singh: And more more often than not, the current solution that exists to solve this is again just Ms excel.
+
+20
+00:03:02.970 --> 00:03:10.590
+Abhinaav Singh: excel sheets and emails so each of the program administrators, the way they handle it right now is they have their own version of.
+
+21
+00:03:11.010 --> 00:03:18.990
+Abhinaav Singh: The curriculum plan that they take care of and their own excel sheets and then they communicate with each other and all of the other stakeholders via email.
+
+22
+00:03:19.860 --> 00:03:34.620
+Abhinaav Singh: It is just tapper that uses a specific tool called casts to do the same thing, but again with that I think the problem is delegated to a third party entity which is, I think, student.
+
+23
+00:03:35.700 --> 00:03:44.730
+Abhinaav Singh: Student committees to in Member team and they take care of this, and so the program administrators don't do don't have to do it themselves.
+
+24
+00:03:45.630 --> 00:03:55.890
+Abhinaav Singh: So this is a brief background about the problem that exists, right now, and so do you have any questions about the problem, do you want to bet in trying to better understand it.
+
+25
+00:03:57.120 --> 00:03:57.900
+Brad Eiben: Now, makes it.
+
+26
+00:03:58.920 --> 00:04:01.710
+Abhinaav Singh: makes an awesome alright so.
+
+27
+00:04:02.910 --> 00:04:06.450
+Abhinaav Singh: Again, to now I would like to talk about the solution that we have come up with.
+
+28
+00:04:08.220 --> 00:04:19.140
+Abhinaav Singh: And for that, I would first want to show you the kind of excel sheets that some of the program administrators maintain to solve this kind of a problem.
+
+29
+00:04:24.120 --> 00:04:24.750
+Okay.
+
+30
+00:04:35.640 --> 00:04:37.500
+Abhinaav Singh: Just to show you the kind of.
+
+31
+00:04:38.550 --> 00:04:47.850
+Abhinaav Singh: complexity that program administrators deal with, so this is one of the one of the love, I think this is a TIM undergrad.
+
+32
+00:04:48.840 --> 00:04:56.640
+Abhinaav Singh: deanna is the program administrator administrator that actually deals with this, so this is a sheet that she maintains to.
+
+33
+00:04:57.420 --> 00:05:09.960
+Abhinaav Singh: plan semester long curriculum and now, this is what so if she wants to understand which course, it is at on which day she has to go through this, and this is what she uses to communicate with other.
+
+34
+00:05:11.340 --> 00:05:15.300
+Abhinaav Singh: instructors, as well as program administrators as well from different.
+
+35
+00:05:16.620 --> 00:05:17.070
+Abhinaav Singh: rooms.
+
+36
+00:05:18.480 --> 00:05:22.890
+Abhinaav Singh: And now I would like to show you the solution that we're thinking about.
+
+37
+00:05:48.270 --> 00:05:50.280
+Abhinaav Singh: Okay, can you see my screen.
+
+38
+00:05:51.630 --> 00:05:51.900
+Brad Eiben: yeah.
+
+39
+00:05:52.680 --> 00:05:59.550
+Abhinaav Singh: Alright, so so we thought, a good way to solve a problem, like this would include.
+
+40
+00:06:00.930 --> 00:06:07.260
+Abhinaav Singh: Essentially, two most important things that we think are what will drive our solution, one would be.
+
+41
+00:06:08.490 --> 00:06:21.810
+Abhinaav Singh: A better visual interface that would help collaborate on a problem, like this more so that it is easier to process the time based information that courses and involve.
+
+42
+00:06:22.530 --> 00:06:35.760
+Abhinaav Singh: The second would be an algorithm that would use previous semesters data as well as new information for the specific semester, to help identify a predefined schedule.
+
+43
+00:06:36.570 --> 00:06:43.020
+Abhinaav Singh: how it will work now is this, so this is i'm going to show you a typical workflow for a program administrator.
+
+44
+00:06:43.410 --> 00:06:54.720
+Abhinaav Singh: Based using our solution so again, they will start with a blank schedule and they will on trying to import it, they will get three different options, one would be to import it to import one manually.
+
+45
+00:06:55.230 --> 00:07:02.700
+Abhinaav Singh: The second would be importing by algorithm and the third one would be loading previous semesters scheduled.
+
+46
+00:07:03.300 --> 00:07:14.220
+Abhinaav Singh: Now, talking about how they do it if they wanted to import it manually if they wanted to import it manually they just would have to say, this could be a specific use case for, for this would be.
+
+47
+00:07:14.940 --> 00:07:23.490
+Abhinaav Singh: For a program administrators that that is starting a new program so for them, they will have no previous semesters data, so they can just start by.
+
+48
+00:07:25.050 --> 00:07:39.090
+Abhinaav Singh: Including different courses and course details, the most important three mandatory items are going to be course name course number and instructor so that they could quickly input, the details and then later on fill in the remaining gaps.
+
+49
+00:07:39.840 --> 00:07:49.320
+Abhinaav Singh: And this is how they would manually add each of the courses for that specific semester, and this is going to be one of the ways in which they do it for a new course that is one of the use cases.
+
+50
+00:07:50.460 --> 00:07:51.270
+Abhinaav Singh: The second.
+
+51
+00:07:52.380 --> 00:08:05.520
+Abhinaav Singh: The second way, for that would be loading previous semesters and learning previous semesters of course list, so this is again the use case, for this would be a case like.
+
+52
+00:08:06.420 --> 00:08:15.510
+Abhinaav Singh: How Heinz is doing right now so most of the courses that Heinz has are stable do not need a lot of changes, so in that scenario what.
+
+53
+00:08:16.620 --> 00:08:21.480
+Abhinaav Singh: shawn bags does is he tries to modify the existing semester is only.
+
+54
+00:08:21.720 --> 00:08:33.870
+Abhinaav Singh: So what they'd want to do is they just want to load the previous semester select which semester, they want to load, because every service is going to be different, do they want to load last semester last spring 2020 ones course or.
+
+55
+00:08:34.350 --> 00:08:44.340
+Abhinaav Singh: fall 20 or anyone's course, this is what they can select and submit, so this would give them the previous semesters schedule and they can then modify that manually as well.
+
+56
+00:08:44.850 --> 00:08:52.860
+Abhinaav Singh: So the third and the one that we hope would eventually become the go to solution would be imposed by algorithm now having a look at that.
+
+57
+00:08:53.880 --> 00:08:59.070
+Abhinaav Singh: Now what it'll essentially do is it will get some input data.
+
+58
+00:09:00.510 --> 00:09:07.560
+Abhinaav Singh: like this and which would typically include all of the previous semesters data that includes the course name.
+
+59
+00:09:08.220 --> 00:09:17.220
+Abhinaav Singh: The the detail that we showed above the course name the course number the instructor and it would that would be the retail that it would take from previous semesters.
+
+60
+00:09:17.580 --> 00:09:26.940
+Abhinaav Singh: And apart from that, it would take current semesters new courses that is required and specific program as well as time related constraints.
+
+61
+00:09:28.290 --> 00:09:38.520
+Abhinaav Singh: Time related constraints would be, for example, say instructor a can not do a Monday 10am class, so this would be a kind of constraint that we can add, which would help the the algorithm to help.
+
+62
+00:09:39.090 --> 00:09:57.030
+Abhinaav Singh: Better get the predefined schedule and then of course it would also include all of the other information for the previous semesters courses and with that it will give us a good diverse a predefined course schedule, we can have a look at what it would look like.
+
+63
+00:09:58.560 --> 00:10:03.630
+Abhinaav Singh: So this is a simple version to showcase how a solution like that would look.
+
+64
+00:10:04.650 --> 00:10:10.710
+Abhinaav Singh: now say they were just six seven courses for that semester, this is how the solution would look.
+
+65
+00:10:11.190 --> 00:10:20.970
+Abhinaav Singh: Now, it will firstly show the courses that have no conflicts that are completely in the clear and have been offered in the same time, with the same details.
+
+66
+00:10:21.570 --> 00:10:29.880
+Abhinaav Singh: taught by the same Professor over the last few semesters it will just make sure that those it will understand that those are stable courses and we'll just show them.
+
+67
+00:10:30.480 --> 00:10:39.240
+Abhinaav Singh: With a dark green symbol, saying that the other finalized courses, then there will be some courses that would have some changes this semester.
+
+68
+00:10:39.840 --> 00:10:55.200
+Abhinaav Singh: which the program administrators can have a look at and approve if they are small changes, these will be the light green ones, and then specifically there would be some courses that have some big conflicts these could be conflicts that we talked about previously it could be that.
+
+69
+00:10:56.220 --> 00:11:10.140
+Abhinaav Singh: This these two specific courses are cross listed and are being taught in two different venues, this would be a conflict that the program administrator will be shown, in which case, what will happen is on clicking the yellow.
+
+70
+00:11:11.610 --> 00:11:14.430
+Abhinaav Singh: flyer that we see here that says resolve conflict.
+
+71
+00:11:15.270 --> 00:11:22.290
+Abhinaav Singh: It will automatically give them two to three options as to how to solve this problem, because it will understand okay fine if.
+
+72
+00:11:22.590 --> 00:11:31.110
+Abhinaav Singh: There are two different venues the right answer would be that when you one can be chosen instead of two different venues, so it would provide the program administrator with.
+
+73
+00:11:32.070 --> 00:11:47.370
+Abhinaav Singh: A specific way in which they can solve it and which basically means that it would give them pretty prescriptive analysis as to what to do so, other the features again that would help them out would be built in configuration conflict finding and.
+
+74
+00:11:48.690 --> 00:12:00.630
+Abhinaav Singh: Lastly, we also want to help solve the problem between instructors and program administrators in trying to share and exchange both information throughout the Semester, as well as request for.
+
+75
+00:12:01.260 --> 00:12:11.070
+Abhinaav Singh: Specific resources because a lot of times instructors have requirements for resources like hdr articles and other such articles that required licenses.
+
+76
+00:12:11.490 --> 00:12:29.910
+Abhinaav Singh: So we have also included our messaging aspect for every course, as you can see every course your has a message icon and on clicking that what what it will essentially do is open a dialogue between the program administrator as well as the instructor for that specific course.
+
+77
+00:12:31.200 --> 00:12:36.660
+Abhinaav Singh: The ml algorithm here would again help in identifying some of the resources that were required.
+
+78
+00:12:37.080 --> 00:12:51.390
+Abhinaav Singh: Throughout the Semester for this specific course and would help provide notifications and reminders to go the program administrators, as well as instructors to help keep that dialogue open what will happen here is that.
+
+79
+00:12:53.550 --> 00:13:00.270
+Abhinaav Singh: This we feel would be better than emails as well, because not only would the communication be completely on this portal, which really helps.
+
+80
+00:13:00.930 --> 00:13:10.530
+Abhinaav Singh: Not having to do the context switching that a person needs to do for courses, but it will also send a mail like how canvas does it right now, when we send them a when we.
+
+81
+00:13:11.160 --> 00:13:19.650
+Abhinaav Singh: send a notification to each other on canvas it both sends the message on canvas as well as send a mail about it kind of like how linkedin does it do.
+
+82
+00:13:21.150 --> 00:13:27.150
+Abhinaav Singh: It not only sends a message on linkedin but also send a mail saying that does a new message for you.
+
+83
+00:13:29.160 --> 00:13:33.870
+Abhinaav Singh: So this is the solution that we have thought of.
+
+84
+00:13:35.310 --> 00:13:43.590
+Abhinaav Singh: And the benefits that we hope that it will achieve it for sure, would be a reduction in time so.
+
+85
+00:13:44.010 --> 00:13:50.940
+Abhinaav Singh: What we saw was there are at least two to three courses out of about 40 courses that definitely changing even for a stable course like.
+
+86
+00:13:51.840 --> 00:14:05.100
+Abhinaav Singh: Heinz Muslim, in which case we would be able to help solve a lot of time for them, because a lot of the courses that do not need a lot of manual intervention intervention would technically be predefined in the schedule.
+
+87
+00:14:06.390 --> 00:14:16.110
+Abhinaav Singh: It would also help in get PS extra time program administrators extra time because it right now takes about four to eight weeks to do something like this.
+
+88
+00:14:16.800 --> 00:14:26.580
+Abhinaav Singh: We are hoping that this would reduce the time considerably, because a lot of communication will get toned down because of what because of predefined schedule already being present.
+
+89
+00:14:27.180 --> 00:14:31.020
+Abhinaav Singh: And so we hope that to help save a lot of time for them as well.
+
+90
+00:14:31.500 --> 00:14:41.670
+Abhinaav Singh: We also think that it will increase student engagement because students would have better dialogue with the programmer program administrators, they will get the information they need early on.
+
+91
+00:14:42.330 --> 00:14:53.160
+Abhinaav Singh: And lastly, we also think that it will help increase the work satisfaction for program administrators, since they will not have to spend a lot of time doing repetitive tasks like.
+
+92
+00:14:53.700 --> 00:15:04.020
+Abhinaav Singh: Planning each specific course and making sure that they are plan accordingly and, lastly, I just want to show one more thing.
+
+93
+00:15:34.290 --> 00:15:35.550
+Abhinaav Singh: So what we.
+
+94
+00:15:36.690 --> 00:15:44.430
+Abhinaav Singh: plan to do is there will be different views we have we're trying to help engage with the same mental model that.
+
+95
+00:15:44.850 --> 00:15:57.540
+Abhinaav Singh: All of the program administrators already have so we would want to still show them a calendar like view so that it is easy for them to see that there is no there isn't a steep learning curve, for them to start using our tools right away.
+
+96
+00:15:57.990 --> 00:16:06.630
+Abhinaav Singh: So we want to see, they can probably select the courses for a specific day, for example, if a program administrators just wants to see the courses.
+
+97
+00:16:06.900 --> 00:16:22.170
+Abhinaav Singh: For that they have on just Tuesday, they can do that, for example, if there is a course like this there's only one course they will be able to see it that only on Tuesday, there is just one course but at 835 to 935 whereas they could they could they could also want to.
+
+98
+00:16:24.120 --> 00:16:33.060
+Abhinaav Singh: Compare their courses, with the courses have another department like apb would want to do that with hynes, in which case they will be able to see.
+
+99
+00:16:33.630 --> 00:16:46.020
+Abhinaav Singh: The course list for both of those days in a calendar like format, this will help them identify whether they are going to be any clashes or not, and to help manage this, even better, so I think that is.
+
+100
+00:16:48.030 --> 00:16:51.210
+Abhinaav Singh: The last of what I had to show you about the solution that we have envisioned.
+
+101
+00:16:54.900 --> 00:16:57.210
+Abhinaav Singh: And so, with that I wanted to.
+
+102
+00:16:58.230 --> 00:17:03.660
+Abhinaav Singh: See if we could get some feedback from you on the solution that we have thought about.
+
+103
+00:17:22.380 --> 00:17:24.540
+Abhinaav Singh: I think you're speaking on mute.
+
+104
+00:17:28.650 --> 00:17:30.540
+Brad Eiben: I gave up my good answers, while I was muted.
+
+105
+00:17:33.120 --> 00:17:34.470
+Brad Eiben: i'm out now no.
+
+106
+00:17:36.240 --> 00:17:42.870
+Brad Eiben: I took some notes and all of it should be taken with the understanding that i'm not the end user.
+
+107
+00:17:43.800 --> 00:17:48.090
+Brad Eiben: Or the the hands on user in tapper but.
+
+108
+00:17:52.140 --> 00:17:54.150
+Brad Eiben: I guess I guess.
+
+109
+00:17:55.230 --> 00:18:08.010
+Brad Eiben: One thought that I have related to just similar tasks that I try to coordinate with the Faculty especially is.
+
+110
+00:18:10.500 --> 00:18:24.390
+Brad Eiben: How big how big an obstacle is their availability like when you scroll to the right and you had the bubble that showed the example that an instructor isn't available at 10am or something like that.
+
+111
+00:18:27.180 --> 00:18:28.050
+Brad Eiben: I wonder.
+
+112
+00:18:29.160 --> 00:18:34.230
+Brad Eiben: How big an obstacle, that is, and like do they have the opportunity.
+
+113
+00:18:35.310 --> 00:18:39.450
+Brad Eiben: To input their availability, or even their preferences.
+
+114
+00:18:42.240 --> 00:18:42.990
+Brad Eiben: As.
+
+115
+00:18:44.010 --> 00:18:56.070
+Brad Eiben: As an input, or is it is it simply managed by the administrator because I feel like I feel like if the administrator has to reach out to each instructor individually.
+
+116
+00:18:57.720 --> 00:19:03.420
+Brad Eiben: And and understand what their preferences are then and what their constraints are.
+
+117
+00:19:04.500 --> 00:19:21.210
+Brad Eiben: Then that to me feels like it would be much of the much of the manual work, so I, I believe that when you showed was the the interface for the the director or the user, but not necessarily the instructors as individuals.
+
+118
+00:19:23.580 --> 00:19:25.320
+Brad Eiben: Then I understand that correctly.
+
+119
+00:19:26.370 --> 00:19:37.770
+Abhinaav Singh: yeah actually you pointed out, an important thing that I did miss out on by telling you about the solution, so one thing about the solution is that it will, it will have different views.
+
+120
+00:19:38.610 --> 00:19:53.610
+Abhinaav Singh: Every view would also have different levels of access, for example, a program administrator would be the, the editor and owner of a specific curriculum and for that reason they'll be able to modify all of the data that is up there.
+
+121
+00:19:54.960 --> 00:20:07.620
+Abhinaav Singh: However, an instructor can also is will be able to view the whole curriculum, but can only request for specific constraints, it could be two things they could either.
+
+122
+00:20:08.430 --> 00:20:15.240
+Abhinaav Singh: Request for specific times in which they can not teach or they could request for specific.
+
+123
+00:20:16.110 --> 00:20:31.020
+Abhinaav Singh: timings in which they would like to teach so this would be the constraint that they can set they can request for I did show you know approval in the interface final advice that I showed you there were two types of green.
+
+124
+00:20:32.070 --> 00:20:41.550
+Abhinaav Singh: boxes, one that said finalized another that says approval needed, so if there was a specific case in which the Professor asked for a specific constraint.
+
+125
+00:20:42.570 --> 00:20:52.440
+Abhinaav Singh: The algorithm would help would understand that this is not the time in which to replace the course and for that reason, if the course timings did change or any of the details did change.
+
+126
+00:20:52.770 --> 00:21:00.720
+Abhinaav Singh: that's when the program administrator would still need to approve it having a look at it and approve it just once, so that is one thing.
+
+127
+00:21:02.130 --> 00:21:04.980
+Brad Eiben: Okay, because I imagine that that is.
+
+128
+00:21:06.000 --> 00:21:15.600
+Brad Eiben: For the for solving the problem of the time it takes or the the the no value add time necessary for this process.
+
+129
+00:21:15.990 --> 00:21:27.540
+Brad Eiben: I imagine that that would be a large percentage of it, so that was that was maybe the main thing that jumped out at me is if if the instructors.
+
+130
+00:21:28.110 --> 00:21:37.200
+Brad Eiben: If I still need to reach out to the instructors individually, then i'm still exchanging emails and i'm still doing all the all the iterative follow up where.
+
+131
+00:21:38.010 --> 00:22:00.360
+Brad Eiben: So if you have that solved, it seems like you would have most of most of the solution to the problem, what about rooms, what about other resources like audio visual and he mentioned hdr subscriptions but what about what about physical location.
+
+132
+00:22:00.930 --> 00:22:08.670
+Abhinaav Singh: mm hmm now, so the conflict, the constraints that a professor can have or a specific course can have.
+
+133
+00:22:09.930 --> 00:22:24.600
+Abhinaav Singh: Is for shared resources like professors is one shared resource for us for two different countries and, similarly, when you would be another constraint that could be there as for specific words the conflict that we also saw here.
+
+134
+00:22:25.770 --> 00:22:33.000
+Abhinaav Singh: could be for multiple reasons, one of the reasons is that two different courses require the same when you do to the number of seating.
+
+135
+00:22:36.720 --> 00:22:37.140
+Brad Eiben: Okay.
+
+136
+00:22:39.750 --> 00:22:43.350
+Brad Eiben: I suppose the same could be said about instructors, but it would kind of.
+
+137
+00:22:44.460 --> 00:22:52.080
+Brad Eiben: I assume, be up to them to because, for example, I share instructors with the MBA Program.
+
+138
+00:22:53.250 --> 00:22:56.520
+Brad Eiben: that's one human but it's multiple directors.
+
+139
+00:22:57.330 --> 00:23:01.290
+Brad Eiben: So that would need to be that that would be at the instructors discretion.
+
+140
+00:23:02.370 --> 00:23:19.800
+Abhinaav Singh: that's right so so picking which courses today would be at the professors discretion, but the program administrator can actually, for example, if you from tapper want to also share a professor, with a say hines so I showed you a view in which you could also see.
+
+141
+00:23:20.910 --> 00:23:34.050
+Abhinaav Singh: The courses for that Professor on for both your department, as well as high as his department, it will help you understand if there is going to be any conflict or if there's any other problem that you that the system is already not telling you.
+
+142
+00:23:35.820 --> 00:23:37.710
+Brad Eiben: yeah for for what it's worth.
+
+143
+00:23:39.300 --> 00:23:50.310
+Brad Eiben: I think the structure that you built here could be expanded for other pain points like you can have.
+
+144
+00:23:51.720 --> 00:23:56.730
+Brad Eiben: Different checklists like are the ta is recruited for a particular course are.
+
+145
+00:23:59.160 --> 00:24:23.040
+Brad Eiben: You could even have the the the course evaluation data from past years, tied to this so that so that when planning occurred, you can use this as more of a you can expand the the uses, so that the directors and the instructors can discuss core strategy based on past year results.
+
+146
+00:24:25.740 --> 00:24:32.340
+Brad Eiben: Like I think what you've created as a collaborative workspace and that's kind of even though i'm not the user.
+
+147
+00:24:33.060 --> 00:24:44.010
+Brad Eiben: that's kind of what I described as what would be nice to have in our initial discussion is a visual a visual work template.
+
+148
+00:24:44.790 --> 00:25:00.780
+Brad Eiben: That we can talk about Okay, this time is correct, but also the number of students, the number of ta the feedback from previous years, all that kind of stuff I think you could very easily tie it to to what you have here, and it could be discussed.
+
+149
+00:25:02.010 --> 00:25:10.680
+Brad Eiben: In whole as a complete quality discussion, as opposed to just organizing the time and that's a good thing.
+
+150
+00:25:13.800 --> 00:25:24.420
+Brad Eiben: Even like yeah even like our course is going to be close to a specific major or program or are they going to be open to a limited number of students that type of thing.
+
+151
+00:25:27.720 --> 00:25:32.190
+Brad Eiben: You could even you could even have it set up so that it's it's like almost like a.
+
+152
+00:25:33.300 --> 00:25:37.140
+Brad Eiben: slack type chat specific to the course.
+
+153
+00:25:40.140 --> 00:25:42.270
+Brad Eiben: And kind of a live workspace.
+
+154
+00:25:46.260 --> 00:25:53.190
+Brad Eiben: Now, the biggest thing that I missed on the initial discussion was the the instructors input and beyond that.
+
+155
+00:25:56.490 --> 00:26:04.740
+Brad Eiben: I think that that is the ingredient that that makes it a valuable solution that's also usable.
+
+156
+00:26:07.290 --> 00:26:17.790
+Abhinaav Singh: mm hmm Okay, I think I think your point about making it a more holistic solution with some of the other aspects to include increase the quality like making sure that.
+
+157
+00:26:18.180 --> 00:26:28.170
+Abhinaav Singh: Other teams already recruited for this course for the Semester and other such information related to the course can also be useful, maybe we could have a kind of a checklist.
+
+158
+00:26:29.070 --> 00:26:35.460
+Abhinaav Singh: That could be common to all courses for that program and if all the checklist or take that course is ready to be published.
+
+159
+00:26:35.910 --> 00:26:45.840
+Brad Eiben: Exactly yeah yeah and then like even with your algorithm especially you could get more advanced and you could say, because my students have.
+
+160
+00:26:46.920 --> 00:26:57.450
+Brad Eiben: To have classes and tepper and they have classes in fcs like maybe there would need to be a required 30 minute gap for them to travel from one classroom to the next.
+
+161
+00:26:58.710 --> 00:27:05.010
+Brad Eiben: You could you could add you can continuously add features in a way that.
+
+162
+00:27:06.420 --> 00:27:11.490
+Brad Eiben: uses it's almost a minimum a minimum viable product.
+
+163
+00:27:12.600 --> 00:27:18.150
+Brad Eiben: In terms of like it'll do one thing, but it could do many other things if it's if it's.
+
+164
+00:27:19.680 --> 00:27:25.260
+Brad Eiben: For the same types of users and in ways that you'd have to discuss.
+
+165
+00:27:26.430 --> 00:27:27.690
+Brad Eiben: separately, otherwise.
+
+166
+00:27:30.270 --> 00:27:41.220
+Abhinaav Singh: I think that that does make sense stuff like adding stuff like the distance between two buildings if it's a lot, maybe then that those should not be right next to each other courses like that.
+
+167
+00:27:41.640 --> 00:27:53.850
+Abhinaav Singh: Maria what we do what we are hoping is for our mls for them to be able to learn these things by itself right, because if it has seen that over the last so many semesters.
+
+168
+00:27:54.720 --> 00:28:09.000
+Abhinaav Singh: A CS building has not been right after a temper building for a quote for two courses consecutive courses, then it will probably not try to emulate the same thing, it will try to make sure that that does not exist, but that that's a valid point for sure, yes.
+
+169
+00:28:13.830 --> 00:28:16.050
+Brad Eiben: No, I don't really see.
+
+170
+00:28:17.610 --> 00:28:19.620
+Brad Eiben: I don't really see how it's anything but.
+
+171
+00:28:20.820 --> 00:28:27.750
+Brad Eiben: An improvement over sending emails back and forth and checking availability and trial and error and iterating and all that kind of stuff.
+
+172
+00:28:29.640 --> 00:28:32.310
+Brad Eiben: it's I can imagine that.
+
+173
+00:28:33.510 --> 00:28:44.700
+Brad Eiben: Even just it's almost similar to scheduling a meeting where it's just wildly inefficient to check everybody's availability individually and then try to.
+
+174
+00:28:46.350 --> 00:28:48.960
+Brad Eiben: compile them and go back and forth.
+
+175
+00:28:51.090 --> 00:28:52.890
+Abhinaav Singh: That makes sense, yes.
+
+176
+00:28:54.240 --> 00:28:57.180
+Abhinaav Singh: A question that I had in mind was.
+
+177
+00:28:59.160 --> 00:29:14.970
+Abhinaav Singh: I showed you the ui interface straight in front of you right now, would you want to change something add something take away something from it, or a functionality that you think would help enhance the ui.
+
+178
+00:29:21.810 --> 00:29:22.170
+Abhinaav Singh: Because.
+
+179
+00:29:22.950 --> 00:29:23.160
+Abhinaav Singh: God.
+
+180
+00:29:23.250 --> 00:29:30.330
+Abhinaav Singh: Is loving another one, we were just thinking how better how to make it slightly better the next time we do it, we do it for the presentation.
+
+181
+00:29:31.200 --> 00:29:42.150
+Brad Eiben: Okay here's here's here's one idea and it's distinct from any other ideas one idea that happens.
+
+182
+00:29:44.070 --> 00:29:54.030
+Brad Eiben: It happens to me as an instructor and i've seen it happen to other instructors is there assigned to a time slot or a day let's say a Thursday.
+
+183
+00:29:54.660 --> 00:30:07.290
+Brad Eiben: And they don't realize that there's going to be a holiday on or a study day or something on that Thursday, so they plan they plan 12 sessions, but they really only get 11 sessions.
+
+184
+00:30:09.090 --> 00:30:13.050
+Brad Eiben: Those those types of conflicts could be somehow highlighted here.
+
+185
+00:30:16.230 --> 00:30:19.020
+Brad Eiben: That would be tremendously helpful actually.
+
+186
+00:30:19.500 --> 00:30:38.730
+Brad Eiben: Because like I seriously had a just, not long ago, I had a professor that that had to have class on a day off because there was no way to he didn't he didn't know was coming and he kind of couldn't know was coming without somebody having warned him.
+
+187
+00:30:40.260 --> 00:30:45.480
+Brad Eiben: So that's that's a pain point from the professor's side and it's not always obvious.
+
+188
+00:30:46.050 --> 00:30:48.870
+Brad Eiben: When the CMU calendar looks like to a professor.
+
+189
+00:30:51.930 --> 00:30:56.580
+Brad Eiben: that's one another way to look at this is that.
+
+190
+00:30:58.140 --> 00:31:07.140
+Brad Eiben: Since outlook is the standard calendar APP for everybody, like could this be managed.
+
+191
+00:31:08.310 --> 00:31:12.480
+Brad Eiben: Through outlook as it as an add on.
+
+192
+00:31:13.650 --> 00:31:17.850
+Brad Eiben: Rather, as opposed to a standalone APP maybe that's good maybe that's not good.
+
+193
+00:31:19.350 --> 00:31:29.850
+Brad Eiben: But just in terms of the look of the interface more people are used to outlooks control that looks option that looks interface.
+
+194
+00:31:30.450 --> 00:31:42.480
+Brad Eiben: So the learning curve would be smaller if you manage it through outlook and just have it as a separate program specific calendar, or something like that, but you might lose a lot of functionality, if you did that.
+
+195
+00:31:48.960 --> 00:31:54.750
+Brad Eiben: Those are the two things that jump out of me, and I think the outlook thing is a very small factor.
+
+196
+00:31:56.280 --> 00:32:00.690
+Brad Eiben: But if it were if it were integrated somehow that that saved additional steps.
+
+197
+00:32:02.520 --> 00:32:03.450
+Abhinaav Singh: That make sense.
+
+198
+00:32:04.710 --> 00:32:10.950
+Abhinaav Singh: I mean, I see it, going to is one thing could be that we could somehow use outlook.
+
+199
+00:32:11.880 --> 00:32:21.690
+Abhinaav Singh: As an input to our tool that would just use outlook for professors they that's how they can you scheduled meetings you could schedule your classes.
+
+200
+00:32:22.470 --> 00:32:36.630
+Abhinaav Singh: The other thing that I see could be, we could make our ui more like outlook, so that it's easier for them to understand, be more easier for because we would still have functionalities that we will not get it we just used outlook like you said.
+
+201
+00:32:37.140 --> 00:32:38.190
+Abhinaav Singh: So right, you have.
+
+202
+00:32:38.700 --> 00:32:39.780
+Abhinaav Singh: The best of both worlds.
+
+203
+00:32:40.920 --> 00:32:50.520
+Brad Eiben: yeah you might also want to look at this just occurred to me, too, is like some professors prefer to have their office hours directly after class and.
+
+204
+00:32:51.240 --> 00:32:52.800
+Brad Eiben: So you have another class.
+
+205
+00:32:53.370 --> 00:33:09.570
+Brad Eiben: If you have another class encroaching on office hours, then that's a conflict to so that the time required for scheduling the course could be the time plus some factor.
+
+206
+00:33:11.730 --> 00:33:27.150
+Abhinaav Singh: That makes sense that makes sense, essentially what you're saying is that we could also include not just the classes, but also the the office hours into the course details and also make sure that there is no clash there as well.
+
+207
+00:33:27.180 --> 00:33:31.290
+Brad Eiben: yeah I think that this is it, this is an area where.
+
+208
+00:33:32.940 --> 00:33:52.230
+Brad Eiben: Even though I don't use tempers scheduling functions, personally, we are like I do try to schedule guest speakers and I tried to get scheduled events and not knowing like the visibility of the the calendar, as we have it here is very useful and knowing.
+
+209
+00:33:53.550 --> 00:33:56.910
+Brad Eiben: Knowing when to not interfere with another scheduled event.
+
+210
+00:33:58.290 --> 00:34:14.610
+Brad Eiben: If that event is office hours or if that event is if that event is a class session or a test or some other some other thing it could even be a field trip or some some other event related to academics.
+
+211
+00:34:16.350 --> 00:34:24.180
+Brad Eiben: Knowing not to double up on them is having that visibility on an interface like this, or something similar, is useful.
+
+212
+00:34:27.090 --> 00:34:34.560
+Brad Eiben: Even like even like a career fair or something you know, like let's not schedule a career fair while everybody's in class because it won't be any good.
+
+213
+00:34:36.450 --> 00:34:37.170
+Brad Eiben: That type of stuff.
+
+214
+00:34:38.340 --> 00:34:47.340
+Abhinaav Singh: More than that actually does make sense, I mean it could double up as a general scheduling tool for everyone anybody on campus.
+
+215
+00:34:48.090 --> 00:35:02.580
+Abhinaav Singh: They would probably be aware of extracurricular activities that could help also understand whether there are classes going on at a specific time or also some activity by a specific committee going on at that time in which is you want to schedule reschedule your own event.
+
+216
+00:35:06.480 --> 00:35:13.620
+Abhinaav Singh: Okay, one other thing that we had was so we'd eventually want to have.
+
+217
+00:35:14.640 --> 00:35:18.720
+Abhinaav Singh: A way to go forward with it, and so we have a lot of functionality.
+
+218
+00:35:21.420 --> 00:35:33.030
+Abhinaav Singh: To understand if say you were to use a solution like this, what would be the most important, how would you rank the functionalities that we talked about just now, because.
+
+219
+00:35:34.050 --> 00:35:45.480
+Abhinaav Singh: We want to understand, every time in going where to go with an mvp, what are the most important functionalities that would want to start with, to make sure that a smooth functionalities up and running, before we add more features.
+
+220
+00:35:47.010 --> 00:35:48.120
+Brad Eiben: instructor constraints.
+
+221
+00:35:49.860 --> 00:35:51.780
+Abhinaav Singh: instructor constraints that yeah.
+
+222
+00:35:52.650 --> 00:35:59.550
+Brad Eiben: yeah allowing them to allowing them to enter their windows and then realizing that compiling.
+
+223
+00:36:05.250 --> 00:36:15.960
+Abhinaav Singh: And now will be number one would you want to have more of what you can see, on your screen right now so we're the ones that we have is like a calendar like a canvas like you said.
+
+224
+00:36:16.320 --> 00:36:17.670
+Abhinaav Singh: And look like canvas.
+
+225
+00:36:18.060 --> 00:36:28.200
+Abhinaav Singh: The ability to sync with si O and stellick so that the information is consistent all over the place, a real time scheduling and version management.
+
+226
+00:36:29.040 --> 00:36:38.160
+Abhinaav Singh: functionality, the algorithm that we talked about that helps take data from previous semesters as well as current semesters and has found the schedule.
+
+227
+00:36:38.880 --> 00:36:49.080
+Abhinaav Singh: The comparison between our two different departments and the courses for those departments know being able to search and filter through courses and timings.
+
+228
+00:36:50.190 --> 00:36:56.370
+Abhinaav Singh: The messaging system that we've that we talked about for specific courses and lock me the conflict findings.
+
+229
+00:37:03.150 --> 00:37:09.390
+Abhinaav Singh: To would you like to have at least one or a few more of these in the mvp.
+
+230
+00:37:17.340 --> 00:37:18.900
+Brad Eiben: One eight, I believe.
+
+231
+00:37:21.750 --> 00:37:22.080
+Brad Eiben: yeah.
+
+232
+00:37:23.970 --> 00:37:24.780
+Abhinaav Singh: makes sense.
+
+233
+00:37:26.040 --> 00:37:26.730
+Abhinaav Singh: All right, so.
+
+234
+00:37:27.900 --> 00:37:36.570
+Abhinaav Singh: According to you I think what we saw was the mvp should have most importantly, the instructor constraints, making sure that.
+
+235
+00:37:36.900 --> 00:37:47.640
+Abhinaav Singh: The time the back end foot gets resolved completely and help save a lot of time and the other two functionalities will be the calendar like canvas and being able to resolve conflicts.
+
+236
+00:37:48.690 --> 00:37:48.990
+Brad Eiben: yeah.
+
+237
+00:37:50.310 --> 00:37:50.610
+Abhinaav Singh: awesome.
+
+238
+00:37:52.590 --> 00:37:59.670
+Abhinaav Singh: awesome, and so one other question that I had was it's going to be a little abstract.
+
+239
+00:38:00.630 --> 00:38:07.740
+Abhinaav Singh: But we wanted some understanding and I think you could help us more than anybody else with this is because we also don't really have a lot of.
+
+240
+00:38:08.370 --> 00:38:21.420
+Abhinaav Singh: We have not done pricing till now, and that is something that we need to understand So what do you think a PA will be willing to pay for a solution like this, I know it's a very abstract question and.
+
+241
+00:38:23.190 --> 00:38:25.500
+Abhinaav Singh: We have a little information about it right now but.
+
+242
+00:38:26.820 --> 00:38:30.030
+Brad Eiben: it's it's not that abstract if.
+
+243
+00:38:31.320 --> 00:38:32.460
+Brad Eiben: There are a few ways.
+
+244
+00:38:34.170 --> 00:38:35.970
+Brad Eiben: That you might start to look at it.
+
+245
+00:38:37.680 --> 00:38:39.030
+Brad Eiben: One is.
+
+246
+00:38:42.030 --> 00:38:50.400
+Brad Eiben: One is what would I pay somebody to spend all the time to do this manually the existing way or what am I losing in terms of.
+
+247
+00:38:52.650 --> 00:38:57.360
+Brad Eiben: In terms of salary paid out whether it's my own or somebody else's.
+
+248
+00:38:57.750 --> 00:38:58.440
+Brad Eiben: To do this.
+
+249
+00:39:02.250 --> 00:39:05.700
+Brad Eiben: Another would be comparison to other.
+
+250
+00:39:06.870 --> 00:39:15.870
+Brad Eiben: Applications that can do similar things like when we when we discuss when we discuss number one and number eight.
+
+251
+00:39:17.520 --> 00:39:32.010
+Brad Eiben: it's it's not exactly similar but it's somewhat similar to like a went to meet type application it's free but that's very, very basic very it wouldn't do the.
+
+252
+00:39:32.610 --> 00:39:36.390
+Brad Eiben: The, especially the conflict finding necessarily.
+
+253
+00:39:36.720 --> 00:39:44.010
+Brad Eiben: yeah we wouldn't do either one or a bit it would it kind of does the intention and that's free like that's the free version.
+
+254
+00:39:46.650 --> 00:39:55.230
+Brad Eiben: But to look at to look at what what are comparable prices for similar type productivity tools.
+
+255
+00:39:57.480 --> 00:40:00.270
+Brad Eiben: Because you have some idea that people are paying for them.
+
+256
+00:40:01.350 --> 00:40:03.120
+Brad Eiben: Like I wouldn't.
+
+257
+00:40:04.620 --> 00:40:17.580
+Brad Eiben: Like it, for example, an application like cello doesn't do the same thing, but it's a similar type of productivity booster that you might benchmarked as like well how did they structure their pricing.
+
+258
+00:40:19.110 --> 00:40:22.320
+Brad Eiben: Because you're kind of accomplishing similar organizational.
+
+259
+00:40:23.940 --> 00:40:25.530
+Brad Eiben: organizational functions.
+
+260
+00:40:26.850 --> 00:40:28.890
+Brad Eiben: And I would also think that you might.
+
+261
+00:40:30.150 --> 00:40:32.100
+Brad Eiben: You might look at pricing as being.
+
+262
+00:40:33.180 --> 00:40:38.730
+Brad Eiben: quite different between the mvp and a full featured version.
+
+263
+00:40:39.330 --> 00:40:40.050
+Brad Eiben: Depending on.
+
+264
+00:40:40.140 --> 00:41:01.800
+Brad Eiben: kind of like where you envision the roadmap going the way that we discussed like maybe the minimum viable is free, and maybe you add these other features as premium or maybe not maybe you have other research that says that the features alone or something and you'll just continue adding.
+
+265
+00:41:03.990 --> 00:41:12.090
+Brad Eiben: But I would think that I think that for those who do this for your interview interview ease.
+
+266
+00:41:12.660 --> 00:41:15.630
+Brad Eiben: They probably find this to be useful enough that they would pay for it.
+
+267
+00:41:16.860 --> 00:41:18.330
+Brad Eiben: Even if it's just one in a.
+
+268
+00:41:19.140 --> 00:41:19.470
+hmm.
+
+269
+00:41:20.760 --> 00:41:23.730
+Brad Eiben: And even if it's even if it's just a small amount, but.
+
+270
+00:41:25.860 --> 00:41:39.960
+Brad Eiben: You might also find that it doesn't scale because, even within the four directors, that you interviewed one of them has a completely different system so understanding how universal, the problem is.
+
+271
+00:41:41.100 --> 00:41:42.540
+Brad Eiben: batters so.
+
+272
+00:41:44.430 --> 00:41:55.170
+Brad Eiben: yeah like I don't think there's a straight answer, I think there are some areas that you can think about and and hypothesize and potentially test.
+
+273
+00:41:56.460 --> 00:42:13.320
+Abhinaav Singh: mm hmm no, I think that does give some at least some direction to us to approach it maybe I mean we can triangulate it with say one comparing it with other productivity tools that would be helpful, I think, maybe what you said, the second option could be.
+
+274
+00:42:14.520 --> 00:42:22.350
+Abhinaav Singh: Seeing so we already know how much time is wasted on an activity like this, we could probably understand the salary of a typical.
+
+275
+00:42:23.250 --> 00:42:43.950
+Abhinaav Singh: program administrator and then try to infer the amount of the time value the cost that is being lost out and then that could be also another hateful metric and you could use two to three other different aspects, like those to come to a at least some value for a premium.
+
+276
+00:42:45.000 --> 00:42:45.600
+Abhinaav Singh: solution.
+
+277
+00:42:46.440 --> 00:42:56.520
+Brad Eiben: yeah, like the other, the other tool that that is similar to this that I personally have started using recently as calland Lee.
+
+278
+00:42:57.090 --> 00:43:00.360
+Brad Eiben: And it integrates with outlook, but it.
+
+279
+00:43:00.630 --> 00:43:06.750
+Brad Eiben: It does kind of the same thing it looks for available available meeting times for meeting specifically.
+
+280
+00:43:07.230 --> 00:43:11.490
+Brad Eiben: But like I think they're they charge something like $7 a month, then.
+
+281
+00:43:12.660 --> 00:43:14.070
+Brad Eiben: You know, at least in terms of.
+
+282
+00:43:15.300 --> 00:43:21.210
+Brad Eiben: of understanding what a similar function is selling for.
+
+283
+00:43:22.920 --> 00:43:26.760
+Brad Eiben: And they also have the little limited free version of course.
+
+284
+00:43:27.360 --> 00:43:27.720
+and
+
+285
+00:43:29.220 --> 00:43:40.560
+Brad Eiben: Like for the time that it potentially saves me in a month $7 is nothing it's like it's it's nothing at all, but they have a very.
+
+286
+00:43:41.880 --> 00:43:48.330
+Brad Eiben: A very broad market and, as I look at as I look at what you are presenting here.
+
+287
+00:43:49.410 --> 00:43:58.530
+Brad Eiben: you're presenting more than just a course scheduling potential you're presenting something any user who has to schedule multiple.
+
+288
+00:43:59.580 --> 00:44:00.480
+Brad Eiben: Multiple.
+
+289
+00:44:01.920 --> 00:44:05.400
+Brad Eiben: Potentially conflicting events with multiple stakeholders.
+
+290
+00:44:06.960 --> 00:44:08.190
+Brad Eiben: The same.
+
+291
+00:44:09.540 --> 00:44:10.650
+Brad Eiben: The same.
+
+292
+00:44:11.760 --> 00:44:22.410
+Brad Eiben: structure or the same logic could be applied to them to think of a facilities manager or someone that you know someone that is managing.
+
+293
+00:44:23.730 --> 00:44:32.760
+Brad Eiben: room availability, instead of instructor availability, I think I think this can start as.
+
+294
+00:44:34.740 --> 00:44:37.080
+Brad Eiben: an educational specific.
+
+295
+00:44:39.120 --> 00:44:44.430
+Brad Eiben: Application but then expand to something that just simplifies scheduling universally.
+
+296
+00:44:47.880 --> 00:45:03.060
+Abhinaav Singh: That also does make sense, I mean that would be the domain knowledge that will get in trying to solve some problems in the educational fair, yes, there will definitely learn more about scheduling and how to do it effectively for organizations for sure.
+
+297
+00:45:09.450 --> 00:45:10.710
+Abhinaav Singh: Hope K and.
+
+298
+00:45:12.030 --> 00:45:12.570
+Abhinaav Singh: So.
+
+299
+00:45:14.460 --> 00:45:17.190
+Abhinaav Singh: I do understand that again that you're not.
+
+300
+00:45:18.420 --> 00:45:19.260
+Abhinaav Singh: A user but.
+
+301
+00:45:21.900 --> 00:45:24.600
+Abhinaav Singh: If we were to build a solution like this.
+
+302
+00:45:27.120 --> 00:45:32.400
+Abhinaav Singh: Would you, and if we were to say, have a startup that did build a solution like this.
+
+303
+00:45:33.210 --> 00:45:51.360
+Abhinaav Singh: Would you be excited to be at least in some way being a part of it in the sense that would you either want to have another customer interview with us to help us guide us in the right direction, or would you be willing to give us feedback on a DEMO that we show you or would you.
+
+304
+00:45:52.200 --> 00:46:01.260
+Brad Eiben: i'd use it as a different type of stakeholder its its value to me it's valuable to me as a.
+
+305
+00:46:03.990 --> 00:46:07.770
+Brad Eiben: How to put this it's valuable to me as a.
+
+306
+00:46:08.820 --> 00:46:26.730
+Brad Eiben: sort of external or a Jason stakeholder where knowing that this information, even just think about it as i'm not the user, but i'm responsible for the operational aspects i'm responsible to ensure that.
+
+307
+00:46:27.840 --> 00:46:32.460
+Brad Eiben: Even though i'm not doing it myself, I need to know what our status is.
+
+308
+00:46:33.390 --> 00:46:34.380
+Brad Eiben: and scheduling.
+
+309
+00:46:34.410 --> 00:46:48.390
+Brad Eiben: For the next year I need to know that we have the instructors lined up that we have a workable schedule that we have the resources reserved so as part of a as part of an operational.
+
+310
+00:46:49.980 --> 00:46:51.270
+Brad Eiben: A status report.
+
+311
+00:46:52.860 --> 00:46:59.430
+Brad Eiben: The display the ui provides that for me so that I know that there are no unresolved problem.
+
+312
+00:47:00.480 --> 00:47:00.870
+Abhinaav Singh: mm hmm.
+
+313
+00:47:02.400 --> 00:47:03.270
+Abhinaav Singh: That makes sense.
+
+314
+00:47:04.950 --> 00:47:06.600
+Abhinaav Singh: That makes sense.
+
+315
+00:47:07.650 --> 00:47:19.080
+Abhinaav Singh: Okay, I think, then, with that, I mean is there anything else, that you have you had in mind about the solution that you thought, maybe this is an important thing that you did not say or anything at all.
+
+316
+00:47:19.830 --> 00:47:27.270
+Brad Eiben: No, I think I think you, you certainly found something that has the potential to be.
+
+317
+00:47:28.320 --> 00:47:32.520
+Brad Eiben: time consuming and and the end simplified, at the same time.
+
+318
+00:47:34.920 --> 00:47:38.970
+Abhinaav Singh: awesome that was very helpful, I think, Stephen I think.
+
+319
+00:47:40.110 --> 00:47:47.190
+Abhinaav Singh: This really helped us identify some of the areas that we can maybe work on and trying to whom are the solution that we created, and this was.
+
+320
+00:47:47.880 --> 00:47:51.840
+Abhinaav Singh: Definitely, a lot of us, for us, so thank you for your time again because.
+
+321
+00:47:52.830 --> 00:47:58.590
+Abhinaav Singh: We I mean, I know that you were not a direct customer for this, but we did get so many valuable inputs.
+
+322
+00:47:59.010 --> 00:48:06.060
+Abhinaav Singh: i'm going to actually watch this video again note down and I got a lot of different ideas just from this conversation as to how I can portray I mean.
+
+323
+00:48:06.420 --> 00:48:18.240
+Abhinaav Singh: What you said meeting how scheduling meetings and how this is similar to that, I think that could be one other ways in trying to showcase the pain points that one used to have before being able to.
+
+324
+00:48:19.770 --> 00:48:35.310
+Abhinaav Singh: Say set meetings with other people other stakeholders and would help show how these two things are similar as well, so yeah this was extremely helpful Thank you so much again Mr and printer, which is something that you ought to say or ask is when.
+
+325
+00:48:37.440 --> 00:48:47.340
+Pranav Prasad: I know nothing specific by I mean, I just want to thank you for the entire time for your three interviews that we've got a lot, a lot of different kinds of.
+
+326
+00:48:48.570 --> 00:48:56.250
+Pranav Prasad: viewpoints as well, because the others have given us pretty similar ones, and now we are all up into three different today, so thank you.
+
+327
+00:48:57.720 --> 00:48:58.140
+Brad Eiben: All right.
+
+328
+00:48:59.610 --> 00:49:00.000
+Brad Eiben: Good luck.
+
+329
+00:49:00.960 --> 00:49:03.630
+Abhinaav Singh: Thank you so much um yeah hopefully see you again.
+
+330
+00:49:04.380 --> 00:49:04.740
+All right.
+
+331
+00:49:06.120 --> 00:49:06.390
+Brad Eiben: bye.
+
