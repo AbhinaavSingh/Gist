@@ -2,3 +2,4 @@ streamlit
 pandas
 nltk
 Pillow
+streamlit_option_menu
