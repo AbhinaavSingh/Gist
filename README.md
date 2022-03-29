@@ -7,5 +7,5 @@
 </div>
 
 # Gist
-[![](https://img.shields.io/badge/Gist-Streamlit-brightgreen)](https://share.streamlit.io/akshaybahadur21/bigdl-movie-rec/main/streamlit-movie-rec.py)
+[![](https://img.shields.io/badge/Gist-Streamlit-brightgreen)](https://share.streamlit.io/abhinaavsingh/gist/main/st_analyzer.py)
 
