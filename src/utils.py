@@ -2,6 +2,11 @@ call_df_list = []
 text_list = []
 
 
+def clear_all():
+    call_df_list.clear()
+    text_list.clear()
+
+
 def append_call_df_list(call_df):
     call_df_list.clear()
     call_df_list.append(call_df)

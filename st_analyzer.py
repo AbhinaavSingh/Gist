@@ -56,6 +56,7 @@ def main():
     try:
         if selected.lower() == "home":
             home.app()
+            utils.clear_all()
         elif selected.lower() == "upload transcript":
             call_df, text = upload.app()
             utils.append_call_df_list(call_df)
