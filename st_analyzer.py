@@ -9,7 +9,17 @@ from PIL import Image
 def setup_streamlit():
     st.set_page_config(page_title="Gist", layout="wide")
     image = Image.open('resources/gist_logo.png')
-    st.image(image, width=250, caption='More than just minutes of the meeting!')
+    
+    
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.write(' ')
+    with col2:
+        st.image(image, width=250, caption='More than just minutes of the meeting!')
+    with col3:
+        st.write(' ')
+    
+    
     st.markdown(
         """
         <style>
