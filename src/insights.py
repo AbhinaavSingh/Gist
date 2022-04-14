@@ -1,20 +1,24 @@
-import streamlit as st
+import re
+
 import pandas as pd
+import plotly.express as px
+import streamlit as st
 
 
 def app(df):
     try:
+        df_orig = df.copy()
         df['Start Time'] = pd.to_datetime(df['Start Time'])
         df['End Time'] = pd.to_datetime(df['End Time'])
         st.title('Generating Insights')
 
         st.subheader("Data View")
-        slice_index = st.slider(
+        n_slice_index = st.slider(
             'Select a range of indices',
             0, len(df),
             (0, 5)
         )
-        min_range, max_range = slice_index
+        min_range, max_range = n_slice_index
         st.table(df[min_range:max_range + 1])
 
         st.subheader("General Information")
@@ -23,8 +27,30 @@ def app(df):
         start_time = df.iloc[[0]]['Start Time'][0]
         end_time = df.iloc[[-1]]['End Time'][len(df) - 1]
         delta = end_time - start_time
-        col2.metric("Duration of the Meeting", "{} hrs {} mins".format(delta.components.hours, delta.components.minutes))
+        col2.metric("Duration of the Meeting",
+                    "{} hrs {} mins".format(delta.components.hours, delta.components.minutes))
         st.write("Names of the Participants : {}".format(", ".join(list(df['Speaker'].unique()))))
+
+        grpd_df = df.groupby('Speaker', as_index=False)['Text'].aggregate(lambda x: list(x))
+
+        def f(x):
+            text_list = x['Text']
+            count = 0
+            for t in text_list:
+                t = re.sub(r'[^A-Za-z0-9 ]+', '', t)
+                count += len(t.split())
+            return count
+
+        grpd_df["Number of Words"] = grpd_df.apply(lambda x: f(x), axis=1)
+        st.table(grpd_df[['Speaker', 'Number of Words']])
+        fig = px.bar(grpd_df, x="Speaker", y="Number of Words", color='Speaker')
+        st.plotly_chart(fig, use_container_width=True)
+
+        time_df = df_orig.copy()
+        time_df['start_delta'] = pd.to_timedelta(df_orig['Start Time'])
+        time_df['end_delta'] = pd.to_timedelta(df_orig['End Time'])
+        time_df['delta'] = time_df['end_delta'] - time_df['start_delta']
+        grpd_time_df = time_df.groupby('Speaker', as_index=False)['delta'].apply(lambda x: x.sum())
 
     except Exception:
         st.error("Unable to parse the data. \n Reupload the vtt file")
