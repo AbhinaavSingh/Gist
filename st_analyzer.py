@@ -7,7 +7,7 @@ from PIL import Image
 
 
 def setup_streamlit():
-    st.set_page_config(page_title="Gist", layout="wide")
+    st.set_page_config(page_title="Gist", layout="wide", page_icon="⏱️")
     image = Image.open('resources/gist_logo.png')
     
     
@@ -75,8 +75,8 @@ def main():
             insights.app(utils.get_call_df())
         elif selected.lower() == "generate summary":
             summary.app(utils.get_text())
-    except Exception:
-        pass
+    except Exception as e:
+        print(f"{type(e).__name__} at line {e.__traceback__.tb_lineno} of {__file__}: {e}")
 
 
 if __name__ == '__main__':
