@@ -52,5 +52,39 @@ def app(df):
         time_df['delta'] = time_df['end_delta'] - time_df['start_delta']
         grpd_time_df = time_df.groupby('Speaker', as_index=False)['delta'].apply(lambda x: x.sum())
 
+        def f(x):
+            delta = x['delta']
+            sec = delta.components.seconds
+            mins = delta.components.minutes
+            return float(mins) + float(sec / 60)
+
+        grpd_time_df["Time in Minutes"] = grpd_time_df.apply(lambda x: f(x), axis=1)
+        st.table(grpd_time_df[['Speaker', 'Time in Minutes']])
+        fig = px.bar(grpd_time_df, x="Speaker", y="Time in Minutes", color='Speaker')
+        st.plotly_chart(fig, use_container_width=True)
+
+        conv_df = df_orig.copy()
+        conv_df['start_delta'] = pd.to_timedelta(df_orig['Start Time'])
+        conv_df['end_delta'] = pd.to_timedelta(df_orig['End Time'])
+
+        def f(x):
+            end = x['end_delta']
+            mins = end.components.minutes
+            return mins
+
+        conv_df["mins"] = conv_df.apply(lambda x: f(x), axis=1)
+        conv_df_grps = conv_df.groupby(['mins', 'Speaker'], as_index=False)['Text'].aggregate(lambda x: list(x))
+        def f(x):
+            text_list = x['Text']
+            count = 0
+            for t in text_list:
+                t = re.sub(r'[^A-Za-z0-9 ]+', '', t)
+                count += len(t.split())
+            return count
+
+        conv_df_grps["Number of Words"] = conv_df_grps.apply(lambda x: f(x), axis=1)
+        fig = px.line(conv_df_grps, x="mins", y="Number of Words", color='Speaker', markers=True)
+        st.plotly_chart(fig, use_container_width=True)
+
     except Exception:
         st.error("Unable to parse the data. \n Reupload the vtt file")
