@@ -7,7 +7,7 @@
 </div>
 
 # Gist
-[![](https://img.shields.io/badge/Gist-Streamlit-brightgreen)](https://share.streamlit.io/abhinaavsingh/gist/main/st_analyzer.py) [![](https://img.shields.io/badge/GitHub-Source-brightgreen)](https://github.com/AbhinaavSingh/Gist)
+[![](https://img.shields.io/badge/Gist-Streamlit-brightgreen)](https://share.streamlit.io/abhinaavsingh/gist/main/st_analyzer.py) [![](https://img.shields.io/badge/GitHub-Source-blue)](https://github.com/AbhinaavSingh/Gist)
 
 ### How to use Gist
 - Upload meeting transcript using the option in the sidebar.
