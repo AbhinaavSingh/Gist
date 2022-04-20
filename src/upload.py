@@ -37,41 +37,29 @@ def clean(text):
 
 def create_df(text):
     text_list = text.strip().split("\n\r")
+    if len(text_list) == 1:
+        text_list = text.strip().split('\n\n')
     list_df = []
     for t in text_list:
         try:
             if ":" in t:
                 l_df = []
-                l_df.append(str(t.split("\r\n")[1].split("-->")[0]).strip())
-                l_df.append(str(t.split("\r\n")[1].split("-->")[1]).strip())
-                l_df.append(t.split("\r\n")[2].split(":")[0])
-                l_df.append(t.split("\r\n")[2].split(":")[1])
+                if '\r' in t:
+                    l_df.append(str(t.split("\r\n")[1].split("-->")[0]).strip())
+                    l_df.append(str(t.split("\r\n")[1].split("-->")[1]).strip())
+                    l_df.append(t.split("\r\n")[2].split(":")[0])
+                    l_df.append(t.split("\r\n")[2].split(":")[1])
+                else:
+                    l_df.append(str(t.split("\n")[1].split("-->")[0]).strip())
+                    l_df.append(str(t.split("\n")[1].split("-->")[1]).strip())
+                    l_df.append(t.split("\n")[2].split(":")[0])
+                    l_df.append(t.split("\n")[2].split(":")[1])
                 list_df.append(l_df)
         except Exception:
             print(t)
     df = pd.DataFrame(list_df)
     df.columns = ["Start Time", "End Time", "Speaker", "Text"]
     return df
-
-
-def create_df_from_sample(text):
-    text_list = text.strip().split("\n\n")
-    list_df = []
-    for t in text_list:
-        try:
-            if ":" in t:
-                l_df = []
-                l_df.append(str(t.split("\n")[1].split("-->")[0]).strip())
-                l_df.append(str(t.split("\n")[1].split("-->")[1]).strip())
-                l_df.append(t.split("\n")[2].split(":")[0])
-                l_df.append(t.split("\n")[2].split(":")[1])
-                list_df.append(l_df)
-        except Exception:
-            print(t)
-    df = pd.DataFrame(list_df)
-    df.columns = ["Start Time", "End Time", "Speaker", "Text"]
-    return df
-
 
 def app():
     st.title("Upload Meeting Transcript")
@@ -101,7 +89,7 @@ def app():
                         call_df = create_df(text)
                         utils.append_call_df_list(call_df)
                     else:
-                        call_df = create_df_from_sample(text)
+                        call_df = create_df(text)
                         utils.append_call_df_list(call_df)
                 call_df = utils.get_call_df()
                 text = utils.get_text()
