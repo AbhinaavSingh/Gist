@@ -42,6 +42,8 @@ def app(df):
             return count
 
         grpd_df["Number of Words"] = grpd_df.apply(lambda x: f(x), axis=1)
+        col3.metric("Total Number of Words",
+                    "{} ".format(int(grpd_df["Number of Words"].sum())))
         st.table(grpd_df[['Speaker', 'Number of Words']])
         fig = px.bar(grpd_df, x="Speaker", y="Number of Words", color='Speaker')
         st.plotly_chart(fig, use_container_width=True)
