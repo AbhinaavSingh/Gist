@@ -74,7 +74,6 @@ def summary(text):
 
 
 def create_summary_table(summary_list, summary_size):
-    st.write("SUMMARY: ", summary_list[0])
     threshold = 5
     if summary_size == "Small":
         threshold = 5
