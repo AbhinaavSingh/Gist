@@ -9,6 +9,8 @@
 # Gist
 [![](https://img.shields.io/badge/Gist-Streamlit-brightgreen)](https://share.streamlit.io/abhinaavsingh/gist/main/st_analyzer.py) [![](https://img.shields.io/badge/GitHub-Source-blue)](https://github.com/AbhinaavSingh/Gist)
 
+More than just minutes of the meeting! 🚀
+
 ### Motivation
 Both of us in the team are getting back to college after a considerable amount of time spent as professionals. One common thing we noticed was how expensive meetings really are. Say, an engineer costs about 100 USD an hour. A meeting of 10 such engineers for an hour would amount to $1000. Keeping this in mind, it becomes important to make meetings more efficient. 
 
@@ -63,11 +65,7 @@ streamlit run st_analyzer.py
 
 ## References 🔱
  
--  Ivan Grishchenko and Valentin Bazarevsky, Research Engineers, Google Research. [Mediapipe by Google](https://github.com/google/mediapipe)
-- [Socratic by Google](https://socratic.org/)
-- [Microsoft Math Solver](https://math.microsoft.com/en)
-
-
-More than just minutes of the meeting! 🚀
+- [Streamlit Gallery](https://streamlit.io/gallery)
+- [Bert Extractive Summarizer](https://github.com/dmmiller612/bert-extractive-summarizer)
 
 Made with ❤️ and 🦙 by [Abhinaav Singh](https://abhinaav.com) and [Akshay Bahadur](https://akshaybahadur.com)
